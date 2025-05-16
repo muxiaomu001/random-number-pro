@@ -1,0 +1,89 @@
+@charset "gb2312";
+html {
+	background: url(/images/bg.png);
+}
+header {
+	width: 221px;
+	height: 78px;
+	margin: 15px auto 0;
+}
+main {
+	width: 400px;
+	margin: 15px auto 0;
+	border: 2px solid #4AB350;
+	border-radius: 20px;
+	padding: 20px;
+	background-color: #FFF;
+}
+h1{ font-size:16px;}
+footer {
+	text-align: center;
+	padding: 40px 0;
+}
+main .item {
+	width: 100%;
+	padding: 10px 0;
+}
+main .item div {
+	width: 85px;
+	height: 32px;
+	line-height: 32px;
+	float: left;
+}
+input, select {
+	outline: none;
+	border: 1px solid #d0ad9a;
+	border-radius: 2px;
+	height: 30px;
+	line-height: 38px;
+	padding: 0 4px;
+}
+#randomNumbers {
+	color: #4AB350;
+	width: 100%;
+	line-height: 36px;
+	font-size: 28px;
+	text-align: left;
+	background-color: #CCC;
+	border-radius: 3px;
+	padding: 5px;
+	margin: 10px 0;
+}
+#randomGenerate {
+	display: inline-block;
+	height: 38px;
+	line-height: 38px;
+	padding: 0 18px;
+	background-color: #009688;
+	color: #fff;
+	white-space: nowrap;
+	text-align: center;
+	font-size: 14px;
+	border: none;
+	border-radius: 2px;
+	cursor: pointer;
+}
+.daxie{ width:400px; margin:0 auto; margin-top:15px;}
+.daxie li{ float:left; width:46px;overflow:hidden;list-style:none; text-align:center; margin-right:2px;padding:3px 0px;border: 1px solid #ccc;border-radius:3px;}
+.daxie li:hover {background:#ccc;color:#fff;} 
+.daxie li a{text-decoration:none;}
+
+.daxieIndex{ width:400px; height:30px; overflow:hidden; margin:0 auto; margin-top:15px; clear:both;}
+.daxieIndex li{ float:left; width:18.8%; line-height:20px;overflow:hidden;list-style:none; text-align:center; margin-right:2px; margin-bottom:10px;padding:3px 0px;border: 1px solid #ccc;border-radius:3px;}
+.daxieIndex li:hover {background:#ccc;color:#fff;} 
+.daxieIndex li a{text-decoration:none;color:#333;}
+ @media (max-width: 1280px) {
+ main {
+ width: 80%;
+ padding: 10px;
+}
+ main .item {
+ padding: 2px 0;
+}
+ footer {
+ padding: 10px 0;
+}
+ #randomNumbers {
+ padding: 2px;
+}
+}
